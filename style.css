@@ -1,0 +1,101 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* MAIN CONTAINER */
+.container {
+  width: 85%;
+  max-width: 1100px;   /* slightly smaller for screen fit */
+  margin: 20px auto;
+  border: 6px solid #6a3e20;
+  background-color: #fffdf8;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #e6c9a8, #f3e2d1);
+  padding: 30px;
+  text-align: left;
+  color: #4b2e17;
+}
+
+header h1 {
+  font-size: 2.4rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-top: 8px;
+  color: #9c4f2d;
+  font-style: italic;
+}
+
+/* NAVIGATION */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background-color: #4b2e17;
+  padding: 12px;
+}
+
+nav li {
+  padding: 8px 15px;
+  background-color: #7a4b2c;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+nav li:hover {
+  background-color: #c27a46;
+  transform: translateY(-3px);
+}
+
+nav a {
+  color: #fff7ef;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* HERO IMAGE – resized for computer screen */
+.hero img {
+  width: 100%;
+  height: 450px;   /* ← fits nicely on laptop/desktop */
+  object-fit: cover;
+  display: block;
+}
+
+/* DESCRIPTION */
+.description {
+  padding: 35px;
+  text-align: center;
+  color: #4b2e17;
+}
+
+.description h3 {
+  font-size: 1.9rem;
+  margin-bottom: 12px;
+  color: #b35726;
+}
+
+.description p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+/* FOOTER */
+footer {
+  padding: 22px;
+  background-color: #e6d9cf;
+  text-align: center;
+  color: #4b2e17;
+  font-weight: bold;
+  margin-top: 15px;
+}
